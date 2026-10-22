@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "harnessguard"
+version = "1.0.0"
+description = "Agent harness state machine and operational governance enforcer."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Professor Bug & Blackbox R&D" }]
+dependencies = ["pydantic>=2.0.0", "rich>=13.0.0"]
+
+[project.scripts]
+harnessguard = "harnessguard.cli:main"

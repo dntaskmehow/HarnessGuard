@@ -1,0 +1,2 @@
+[console_scripts]
+harnessguard = harnessguard.cli:main
